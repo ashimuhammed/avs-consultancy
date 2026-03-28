@@ -20,7 +20,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-blue-200">Call Us</p>
-                  <p className="font-semibold">+91 98765 43210</p>
+                  <p className="font-semibold">+91 7025400801</p>
                 </div>
               </div>
 
@@ -30,7 +30,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-blue-200">Email Us</p>
-                  <p className="font-semibold">info@avsconsultancy.com</p>
+                  <p className="font-semibold">avsjobeducation@gmail. com</p>
                 </div>
               </div>
 
@@ -40,7 +40,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-blue-200">Visit Us</p>
-                  <p className="font-semibold">Skyline Tower, 4th Floor,<br/>Kochi, Kerala</p>
+                  <p className="font-semibold">AVS, TD SANNIDHI ROAD,<br/>THAMMANAM,PALARIVATTOM, KOCHI,KERALA 682032</p>
                 </div>
               </div>
             </div>
