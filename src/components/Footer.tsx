@@ -90,15 +90,15 @@ export default function Footer() {
             <ul className="space-y-6 text-slate-400 text-sm font-medium">
               <li className="flex items-start gap-3">
                 <MapPin size={18} className="text-blue-500 shrink-0" />
-                <span>Skyline Tower, 4th Floor,<br/>Kochi, Kerala, India</span>
+                <span>AVS, TD SANNIDHI ROAD,<br/>THAMMANAM,PALARIVATTOM, KOCHI,KERALA 682032</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-blue-500 shrink-0" />
-                <span>+91 98765 43210</span>
+                <span>+91 7025400801</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-blue-500 shrink-0" />
-                <span>info@avsconsultancy.com</span>
+                <span>avsjobeducation@gmail. com</span>
               </li>
             </ul>
           </div>
@@ -107,7 +107,7 @@ export default function Footer() {
         {/* Bottom Section: Copyright & Scroll */}
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-slate-500 text-xs font-bold uppercase tracking-widest">
-            © 2026 AVS Job & Educational Consultancy. Built with Next.js
+             © 2026 AVS Job & Education Consultancy. All rights reserved.
           </p>
           
           <button 

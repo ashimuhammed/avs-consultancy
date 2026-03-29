@@ -12,7 +12,7 @@ export default function Navbar() {
    
     { name: "Abroad Studies", href: "/abroad-studies", icon: <Globe size={18} /> },
     { name: "Domestic Studies", href: "/domestic-studies", icon: <BookOpen size={18} /> },
-    { name: "Jobs", href: "/jobs", icon: <Briefcase size={18} /> },
+    { name: "Jobs", href: "/jobs", icon: <Briefcase size={18} /> },  
   ];
 
   return (
@@ -21,6 +21,7 @@ export default function Navbar() {
         
         {/* Logo */}
        
+{/* Logo Area */}
 {/* Logo Area */}
 <Link href="/" className="flex items-center gap-2 md:gap-3 group">
   <div className="relative w-10 h-10 md:w-12 md:h-12 overflow-hidden rounded-xl shadow-sm transition-transform group-hover:scale-105">
@@ -34,17 +35,18 @@ export default function Navbar() {
     />
   </div>
   
-  {/* Responsive Text Logic */}
   <div className="flex flex-col justify-center leading-none">
     <span className="font-black text-xl md:text-2xl tracking-tighter text-slate-900">
       AVS<span className="text-blue-600">.</span>
     </span>
-    {/* This span disappears on mobile to prevent overlap */}
-    <span className="hidden md:block text-[10px] font-bold uppercase tracking-widest text-slate-500 mt-0.5">
+    {/* Changed: Removed 'hidden md:block'. 
+        Added: 'text-[8px]' for mobile and 'md:text-[10px]' for desktop 
+    */}
+    <span className="block text-[8px] md:text-[10px] font-bold uppercase tracking-widest text-slate-500 mt-0.5 whitespace-nowrap">
       Job & Education Consultancy
     </span>
   </div>
-</Link>
+</Link> 
 
         {/* Desktop Links (Hidden on Mobile) */}
         <div className="hidden md:flex items-center gap-8">
@@ -58,7 +60,7 @@ export default function Navbar() {
             </Link>
           ))}
           <Link 
-            href="/#contact" 
+            href="/contact" 
             className="bg-slate-900 text-white px-6 py-2.5 rounded-xl font-bold text-sm hover:bg-blue-600 transition-all shadow-lg shadow-slate-200"
           >
             Contact Us

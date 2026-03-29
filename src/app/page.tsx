@@ -18,11 +18,6 @@ export default function Home() {
       <Services />
       <Testimonials />
       <Contact />
-      
-      {/* Footer can go here */}
-      <footer className="py-10 text-center border-t border-slate-100 text-slate-400 text-sm">
-        © 2026 AVS Job & Educational Consultancy. All rights reserved.
-      </footer>
     </main>
   );
 }
